@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+}
+
+header{
+    padding: 10px 0px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.c-logo{
+    margin-right: 20px;
+    height: 80px;
+}
+
+.cart-png{
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.hero-image{
+    width: 100%;
+    height: 60vh;
+    background-image: url("./Assets/Heroimage.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-text > h2{
+    font-style: italic;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 124px;
+}
+
+.hero-text > p{
+    color: #ffff;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.go-products{
+    margin-top: 40px;
+    width: 380px;
+    height: 100px;
+    background-color: #082032;
+    border: none;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.products{
+    background-color: #ffff;
+    min-height: 60vh;
+}
+
+.products > h2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.container-products{
+    height: 100%;
+    display: grid;
+    background-color: #082032;
+}
+.filter-menu{
+    background-color: aqua;
+}
+.product-cards{
+    background-color: #082032;
+}
+.gridel{
+    border: 2px solid black;
+}
