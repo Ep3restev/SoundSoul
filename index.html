@@ -30,11 +30,67 @@
     <main>
         <section class="products">
             <h2>Featured Products</h2>
-            <div class="container-products">
-                <div class="filter-menu gridel" ></div>
-                <div class="product-cards gridel"></div>
+            <div class="wrapper">
+                <div class="container-products">
+                    <div class="filter-menu gridel" >
+                        <h4>Filter</h4>
+                        <div class="filter-brand">
+                            <p>Marca</p>
+                            <ul id="brand-list" class="f-list">
+                                <li><input type="checkbox" id="b1">
+                                    <label for="">Fender</label>
+                                </li>
+                                <li><input type="checkbox" id="b1">
+                                    <label for="">Gibson</label>
+                                </li>
+                                <li><input type="checkbox" id="b1">
+                                    <label for="">Ibanez</label>
+                                </li>
+                                <li><input type="checkbox" id="b1">
+                                    <label for="">YAMAHA</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-type">
+                            <p>Tipo</p>
+                            <ul id="type-list" class="f-list">
+                                <li><input type="checkbox" id="b1">
+                                    <label for="">Acústica</label>
+                                </li>
+                                <li><input type="checkbox" id="b1">
+                                    <label for="">Eléctrica</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-cards gridel">
+                        <div class="p-card">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Starcaster_model_stratocaster_by_fender.png" alt="">
+                            <div class="p-details">
+                                <p>Fender Stratocaster</p>
+                                <p>$1,009</p>
+                                <button class="go-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="p-card">
+                                <img src="https://media.guitarcenter.com/is/image/MMGS7/L82285000001000-00-720x720.jpg" alt="">
+                            <div class="p-details">
+                                <p>Ibanez AZ24047 Prestige</p>
+                                <p>$2,009</p>
+                                <button class="go-cart">Add To Cart</button>
+                            </div>
+                        </div>
+                        <div class="p-card"></div>
+                        <div class="p-card"></div>
+                        <div class="p-card"></div>
+                        <div class="p-card"></div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+    <footer>
+        <p>Copyright 2022.</p>
+    </footer>
 </body>
 </html>
